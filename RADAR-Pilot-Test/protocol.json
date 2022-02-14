@@ -1,7 +1,7 @@
 {
     "version": "0.4.6",
     "schemaVersion": "0.0.2",
-    "name": "RADAR-Pilot-test",
+    "name": "RADAR-Pilot-Test",
     "healthIssues": [
       "depression"
     ],
@@ -50,7 +50,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              1020
+              1070
             ]
           },
           "reminders": {
@@ -112,7 +112,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              1060
+              1080
             ]
           },
           "reminders": {
