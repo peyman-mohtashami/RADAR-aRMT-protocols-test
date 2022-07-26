@@ -12,7 +12,7 @@
       "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
-        "name": "sample-filed-types",
+        "name": "sample-field-types",
         "avsc": "questionnaire"
       },
       "startText": {
