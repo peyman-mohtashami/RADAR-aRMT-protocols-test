@@ -1,0 +1,213 @@
+{
+  "version": "1.0.1",
+  "schemaVersion": "0.0.2",
+  "name": "MySkin Project",
+  "healthIssues": [
+    "psoriasis"
+  ],
+  "protocols": [
+    {
+      "name": "baseline_1.0.1",
+      "label": "Baseline Survey",
+      "type": "on_demand",
+      "order": "1",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_baseline_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing your first survey for the PLAN-psoriasis feasibility trial.<br><br>Your contribution is vital in helping researchers to make discoveries to improve the health of people with psoriasis.<br><br>We will ask for updates on your progress in shorter surveys every 3 months.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    },
+    {
+      "name": "follow_up_a_1.0.1",
+      "label": "Follow Up Survey (3rd month)",
+      "type": "on_demand",
+      "order": "2",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_follow_up_a_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<p>Hello [firstName],<br><br>Thank you for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months to log progress about your skin, treatment, physical health and mental wellbeing. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution to psoriasis research.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing the follow-up survey for the PLAN-psoriasis feasibility trial.<br><br>Your contribution is vital in helping researchers to make discoveries to improve the health of people with psoriasis.<br><br>We will ask for updates on your progress in short surveys every 3 months during the study.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    },
+    {
+      "name": "follow_up_b_1.0.1",
+      "label": "Follow Up Survey (6th month)",
+      "type": "on_demand",
+      "order": "3",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_follow_up_b_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<p>Hello [firstName],<br><br>Thank you for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months to log progress about your skin, treatment, physical health and mental wellbeing. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution to psoriasis research.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing the follow-up survey for the PLAN-psoriasis feasibility trial.<br><br>Your contribution is vital in helping researchers to make discoveries to improve the health of people with psoriasis.<br><br>We will ask for updates on your progress in short surveys every 3 months during the study.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    },
+    {
+      "name": "follow_up_c_1.0.1",
+      "label": "Follow Up Survey (9th month)",
+      "type": "on_demand",
+      "order": "4",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_follow_up_c_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<p>Hello [firstName],<br><br>Thank you for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months to log progress about your skin, treatment, physical health and mental wellbeing. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution to psoriasis research.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing the follow-up survey for the PLAN-psoriasis feasibility trial.<br><br>Your contribution is vital in helping researchers to make discoveries to improve the health of people with psoriasis.<br><br>We will ask for updates on your progress in short surveys every 3 months during the study.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    },
+    {
+      "name": "follow_up_d_1.0.1",
+      "label": "Follow Up Survey (12th month)",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_follow_up_d_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<p>Hello [firstName],<br><br>Thank you for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months to log progress about your skin, treatment, physical health and mental wellbeing. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution to psoriasis research.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing the follow-up survey for the PLAN-psoriasis feasibility trial.<br><br>Your contribution is vital in helping researchers to make discoveries to improve the health of people with psoriasis.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    },
+    {
+      "name": "injection_arm_1_1.0.1",
+      "label": "Log my biologic injection (arm1)",
+      "type": "on_demand",
+      "order": "6",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_injection_arm_1_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic 'as needed' (at the first sign of recurrence of your psoriasis).</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for taking the time to complete this survey.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    },
+    {
+      "name": "injection_arm_2_1.0.1",
+      "label": "Log my biologic injection (arm2)",
+      "order": "7",
+      "showIntroduction": "always",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_injection_arm_2_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "<p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic at a personalised frequency based on the concentration of drug in your blood. This is called therapeutic drug monitoring guided treatment.</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for taking the time to complete this survey.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {}
+    },
+    {
+      "name": "injection_arm_3_1.0.1",
+      "label": "Log my biologic injection (arm3)",
+      "order": "8",
+      "showIntroduction": "always",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_injection_arm_3_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "<p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic according to standard care.</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for taking the time to complete this survey.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {}
+    },
+    {
+      "name": "pifu_1.0.1",
+      "label": "Request ad hoc clinic visit",
+      "type": "on_demand",
+      "order": "9",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "q_pifu_1.0.0",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<p>Hello [firstName],<br><br>Thank you for taking part in the PLAN-psoriasis feasibility trial and for requesting an ad hoc clinic visit.<br><br>We’re asking everyone who requests an ad hoc clinic visit to complete the following survey. Your doctor will then complete a full assessment at your clinic visit and discuss with you whether any changes to your treatment plan are advised.</p>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing the survey for the PLAN-psoriasis feasibility trial. We will be in touch separately to arrange your ad hoc clinic visit.<br><br>We look forward to seeing you in clinic, when your doctor will complete a full assessment and discuss with you whether any changes to your treatment plan are advised.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    }
+  ]
+}
