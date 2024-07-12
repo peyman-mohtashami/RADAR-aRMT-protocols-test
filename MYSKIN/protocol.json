@@ -328,7 +328,7 @@
       "type": "on_demand",
       "order": "1",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "q_pifu_1.0.0",
         "avsc": "questionnaire"
       },
