@@ -10,9 +10,9 @@
       "name": "baseline_1.0.0",
       "label": "Baseline Survey",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "romberg_test",
-        "avsc": "task"
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "name": "q_baseline_1_0_0",
+        "avsc": "questionnaire"
       },
       "showIntroduction": "always",
       "startText": {
