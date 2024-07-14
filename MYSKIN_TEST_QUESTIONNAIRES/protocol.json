@@ -13,7 +13,7 @@
       "order": "1",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
-        "name": "q_baseline_1.0.0",
+        "name": "myskin_baseline",
         "avsc": "questionnaire"
       },
       "showIntroduction": "always",
@@ -36,7 +36,7 @@
       "order": "2",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
-        "name": "q_follow_up_a_1.0.0",
+        "name": "myskin_follow_up_a",
         "avsc": "questionnaire"
       },
       "showIntroduction": "always",
@@ -59,7 +59,7 @@
       "order": "3",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
-        "name": "q_follow_up_b_1.0.0",
+        "name": "myskin_follow_up_b",
         "avsc": "questionnaire"
       },
       "showIntroduction": "always",
@@ -82,7 +82,7 @@
       "order": "4",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
-        "name": "q_follow_up_c_1.0.0",
+        "name": "myskin_follow_up_c",
         "avsc": "questionnaire"
       },
       "showIntroduction": "always",
@@ -103,7 +103,7 @@
       "label": "Follow Up Survey (12th month)",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
-        "name": "q_follow_up_d_1.0.0",
+        "name": "myskin_follow_up_d",
         "avsc": "questionnaire"
       },
       "showIntroduction": "always",
@@ -126,7 +126,7 @@
       "order": "6",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
-        "name": "q_injection_arm_1_1.0.0",
+        "name": "myskin_injection_arm_1",
         "avsc": "questionnaire"
       },
       "showIntroduction": "always",
@@ -149,7 +149,7 @@
       "showIntroduction": "always",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
-        "name": "q_injection_arm_2_1.0.0",
+        "name": "myskin_injection_arm_2",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -171,7 +171,7 @@
       "showIntroduction": "always",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
-        "name": "q_injection_arm_3_1.0.0",
+        "name": "myskin_injection_arm_3",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -193,7 +193,7 @@
       "order": "9",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "q_pifu_1.0.0",
+        "name": "myskin_pifu",
         "avsc": "questionnaire"
       },
       "showIntroduction": "always",
