@@ -43,7 +43,39 @@
         "reminders": {
           "unit": "day",
           "amount": 5,
-          "repeat": 2
+          "repeat": 2,
+          "title": {
+            "en": "Missed Baseline Survey?"
+          },
+          "text": {
+            "en": "It seems you haven't answered all of our questions. Could you please do that now?"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Baseline Survey"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Baseline Survey\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Baseline Survey"
+          },
+          "text": {
+            "en": "A new survey is available for you."
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Baseline Survey"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Baseline Survey\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
         }
       }
     },
@@ -82,7 +114,39 @@
         "reminders": {
           "unit": "day",
           "amount": 5,
-          "repeat": 2
+          "repeat": 2,
+          "title": {
+            "en": "Missed Follow Up Survey (3rd month)?"
+          },
+          "text": {
+            "en": "It seems you haven't answered all of our questions. Could you please do that now?"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Follow Up Survey (3rd month)"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Follow Up Survey (3rd month)\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Follow Up Survey (3rd month)"
+          },
+          "text": {
+            "en": "A new survey is available for you."
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Follow Up Survey (3rd month)"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Follow Up Survey (3rd month)\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
         }
       }
     },
@@ -121,7 +185,39 @@
         "reminders": {
           "unit": "day",
           "amount": 5,
-          "repeat": 2
+          "repeat": 2,
+          "title": {
+            "en": "Missed Follow Up Survey (6th month)?"
+          },
+          "text": {
+            "en": "It seems you haven't answered all of our questions. Could you please do that now?"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Follow Up Survey (6th month)"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Follow Up Survey (6th month)\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Follow Up Survey (6th month)"
+          },
+          "text": {
+            "en": "A new survey is available for you."
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Follow Up Survey (6th month)"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Follow Up Survey (6th month)\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
         }
       }
     },
@@ -160,7 +256,39 @@
         "reminders": {
           "unit": "day",
           "amount": 5,
-          "repeat": 2
+          "repeat": 2,
+          "title": {
+            "en": "Missed Follow Up Survey (9th month)?"
+          },
+          "text": {
+            "en": "It seems you haven't answered all of our questions. Could you please do that now?"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Follow Up Survey (9th month)"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Follow Up Survey (9th month)\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Follow Up Survey (9th month)"
+          },
+          "text": {
+            "en": "A new survey is available for you."
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Follow Up Survey (9th month)"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Follow Up Survey (9th month)\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
         }
       }
     },
@@ -199,7 +327,39 @@
         "reminders": {
           "unit": "day",
           "amount": 5,
-          "repeat": 2
+          "repeat": 2,
+          "title": {
+            "en": "Missed Follow Up Survey (12th month)?"
+          },
+          "text": {
+            "en": "It seems you haven't answered all of our questions. Could you please do that now?"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Follow Up Survey (12th month)"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Follow Up Survey (12th month)\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Follow Up Survey (12th month)"
+          },
+          "text": {
+            "en": "A new survey is available for you."
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Follow Up Survey (12th month)"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Follow Up Survey (12th month)\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
         }
       }
     },
@@ -278,6 +438,43 @@
         "completionWindow": {
           "unit": "year",
           "amount": 1
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 5,
+          "repeat": 2,
+          "title": {
+            "en": "Missed Log my biologic injection?"
+          },
+          "text": {
+            "en": "It seems you haven't answered all of our questions. Could you please do that now?"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Log my biologic injection"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Log my biologic injection\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Log my biologic injection"
+          },
+          "text": {
+            "en": "A new survey is available for you."
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "MySkin - Log my biologic injection"
+            },
+            "body": {
+              "en": "Hello Participant,\n\nWe hope this message finds you well. This is a friendly reminder that you have a survey waiting for your valuable input. Your feedback is crucial to helping us improve our services and offerings.\n\nSurvey Title: Log my biologic injection\n\nTo complete the survey, please open MySkin app and start the survey.\n\n  If you have already completed the survey, we sincerely thank you for your cooperation.\n\n  Best regards,\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
         }
       }
     },
@@ -309,10 +506,6 @@
           "amount": 999
         },
         "repeatQuestionnaire": {
-          "dynamic": {
-            "unit": "min",
-            "unitsFromZero": "arm2RepeatQuestionnaire"
-          },
           "unit": "min",
           "unitsFromZero": [ 0, 121760, 242720, 363680, 484640 ]
         },
