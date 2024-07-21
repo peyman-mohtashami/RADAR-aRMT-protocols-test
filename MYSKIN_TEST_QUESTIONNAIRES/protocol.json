@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "schemaVersion": "0.0.2",
   "name": "MySkin Project",
   "healthIssues": [
@@ -12,7 +12,7 @@
       "type": "on_demand",
       "order": "1",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_baseline",
         "avsc": "questionnaire"
       },
@@ -35,7 +35,7 @@
       "type": "on_demand",
       "order": "2",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_follow_up_a",
         "avsc": "questionnaire"
       },
@@ -58,7 +58,7 @@
       "type": "on_demand",
       "order": "3",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_follow_up_b",
         "avsc": "questionnaire"
       },
@@ -81,7 +81,7 @@
       "type": "on_demand",
       "order": "4",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_follow_up_c",
         "avsc": "questionnaire"
       },
@@ -102,7 +102,7 @@
       "name": "follow_up_d_1.0.1",
       "label": "Follow Up Survey (12th month)",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_follow_up_d",
         "avsc": "questionnaire"
       },
@@ -125,7 +125,7 @@
       "type": "on_demand",
       "order": "6",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_injection_arm_1",
         "avsc": "questionnaire"
       },
@@ -148,7 +148,7 @@
       "order": "7",
       "showIntroduction": "always",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_injection_arm_2",
         "avsc": "questionnaire"
       },
@@ -170,7 +170,7 @@
       "order": "8",
       "showIntroduction": "always",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/tree/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_injection_arm_3",
         "avsc": "questionnaire"
       },
@@ -192,7 +192,7 @@
       "type": "on_demand",
       "order": "9",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_pifu",
         "avsc": "questionnaire"
       },

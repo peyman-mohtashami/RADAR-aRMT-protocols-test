@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "schemaVersion": "0.0.2",
   "name": "MySkin Project",
   "healthIssues": [
@@ -507,7 +507,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [ 0, 121760, 242720, 363680, 484640 ]
+          "unitsFromZero": [ 121760, 242720, 363680, 484640 ]
         },
         "completionWindow": {
           "unit": "year",
