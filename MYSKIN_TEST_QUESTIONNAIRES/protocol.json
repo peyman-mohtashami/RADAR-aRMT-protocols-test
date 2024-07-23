@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "schemaVersion": "0.0.2",
   "name": "MySkin Project",
   "healthIssues": [
@@ -101,6 +101,8 @@
     {
       "name": "follow_up_d_1.0.1",
       "label": "Follow Up Survey (12th month)",
+      "type": "on_demand",
+      "order": "5",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
         "name": "myskin_follow_up_d",
@@ -145,6 +147,7 @@
     {
       "name": "injection_arm_2_1.0.1",
       "label": "Log my biologic injection (arm2)",
+      "type": "on_demand",
       "order": "7",
       "showIntroduction": "always",
       "questionnaire": {
@@ -167,6 +170,7 @@
     {
       "name": "injection_arm_3_1.0.1",
       "label": "Log my biologic injection (arm3)",
+      "type": "on_demand",
       "order": "8",
       "showIntroduction": "always",
       "questionnaire": {
