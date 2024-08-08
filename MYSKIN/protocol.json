@@ -17,7 +17,7 @@
       "order": "1",
       "showIntroduction": "always",
       "startText": {
-        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.<br><br>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
+        "en": "<p class='p-4'>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.<br><br>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -106,7 +106,7 @@
       "order": "1",
       "showIntroduction": false,
       "startText": {
-        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
+        "en": "<p class='p-4'>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -198,7 +198,7 @@
       "order": "2",
       "showIntroduction": false,
       "startText": {
-        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
+        "en": "<p class='p-4'>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -287,7 +287,7 @@
       "order": "2",
       "showIntroduction": false,
       "startText": {
-        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
+        "en": "<p class='p-4'>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -377,7 +377,7 @@
       "order": "2",
       "showIntroduction": false,
       "startText": {
-        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
+        "en": "<p class='p-4'>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -466,7 +466,7 @@
       "order": "2",
       "showIntroduction": false,
       "startText": {
-        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
+        "en": "<p class='p-4'>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -555,7 +555,7 @@
       "order": "3",
       "showIntroduction": false,
       "startText": {
-        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
+        "en": "<p class='p-4'>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -644,7 +644,7 @@
       "order": "3",
       "showIntroduction": false,
       "startText": {
-        "en": "<p>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
+        "en": "<p class='p-4'>Thank you [firstName] for taking part in the PLAN-psoriasis feasibility trial.<br><br>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial. Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.<br><br>The PLAN-psoriasis team<br>Email: PLAN@kcl.ac.uk</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -742,7 +742,7 @@
       },
       "showIntroduction": "always",
       "startText": {
-        "en": "<p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic 'as needed' (at the first sign of recurrence of your psoriasis).</p>",
+        "en": "<p class='p-4'>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic 'as needed' (at the first sign of recurrence of your psoriasis).</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -794,7 +794,7 @@
       },
       "next": "photo_ondemand_2.0.0",
       "startText": {
-        "en": "<p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic at a personalised frequency based on the concentration of drug in your blood. This is called therapeutic drug monitoring guided treatment.</p>",
+        "en": "<p class='p-4'>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic at a personalised frequency based on the concentration of drug in your blood. This is called therapeutic drug monitoring guided treatment.</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -894,7 +894,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "<p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic according to standard care.</p>",
+        "en": "<p class='p-4'>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic according to standard care.</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -993,7 +993,7 @@
       },
       "showIntroduction": "always",
       "startText": {
-        "en": "<p>Hello [firstName],<br><br>Thank you for taking part in the PLAN-psoriasis feasibility trial and for requesting an ad hoc clinic visit.<br><br>We’re asking everyone who requests an ad hoc clinic visit to complete the following survey. Your doctor will then complete a full assessment at your clinic visit and discuss with you whether any changes to your treatment plan are advised.<br><br>We look forward to seeing you in clinic. <br><br>Thank you for your important contribution to psoriasis research.</p>",
+        "en": "<p class='p-4'>Hello [firstName],<br><br>Thank you for taking part in the PLAN-psoriasis feasibility trial and for requesting an ad hoc clinic visit.<br><br>We’re asking everyone who requests an ad hoc clinic visit to complete the following survey. Your doctor will then complete a full assessment at your clinic visit and discuss with you whether any changes to your treatment plan are advised.<br><br>We look forward to seeing you in clinic. <br><br>Thank you for your important contribution to psoriasis research.</p>",
         "it": "",
         "nl": "",
         "da": "",
@@ -1133,7 +1133,7 @@
       },
       "showIntroduction": "always",
       "startText": {
-        "en": "<p>Thank you [firstName] for taking the time to complete the PLAN-psoriasis feasibility trial survey.<br><br>We would like to ask you to take photos of your skin and upload the photos to our secure database. <br><br>We will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.<br><br>This is optional and does not affect your medical care or the rest of your participation in the study.",
+        "en": "<p class='p-4'>Thank you [firstName] for taking the time to complete the PLAN-psoriasis feasibility trial survey.<br><br>We would like to ask you to take photos of your skin and upload the photos to our secure database. <br><br>We will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.<br><br>This is optional and does not affect your medical care or the rest of your participation in the study.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1174,7 +1174,7 @@
       },
       "showIntroduction": "always",
       "startText": {
-        "en": "<p>The following steps explain how to take a blood sample at home.<br><br>Scan the QR code to watch our step-by-step guide.<br><br>Please collect and post the blood sample on a Monday, Tuesday or Wednesday.<br><br>Get in touch with the study team if you have questions (myskin@kcl.ac.uk).</p>",
+        "en": "<p class='p-4'>The following steps explain how to take a blood sample at home.<br><br>Scan the QR code to watch our step-by-step guide.<br><br>Please collect and post the blood sample on a Monday, Tuesday or Wednesday.<br><br>Get in touch with the study team if you have questions (myskin@kcl.ac.uk).</p>",
         "it": "",
         "nl": "",
         "da": "",
