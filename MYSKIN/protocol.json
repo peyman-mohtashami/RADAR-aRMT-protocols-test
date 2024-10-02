@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "schemaVersion": "0.0.2",
   "name": "mySkin Project",
   "healthIssues": [
@@ -34,7 +34,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            180
           ]
         },
         "completionWindow": {
@@ -108,9 +108,9 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            130200,
-            389400,
-            519000
+            210,
+            270,
+            300
           ]
         },
         "completionWindow": {
@@ -184,7 +184,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            259800
+            240
           ]
         },
         "completionWindow": {
@@ -258,7 +258,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            180
           ]
         },
         "completionWindow": {
@@ -332,8 +332,8 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            130200,
-            389400
+            210,
+            270
           ]
         },
         "completionWindow": {
@@ -407,7 +407,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            259800
+            240
           ]
         },
         "completionWindow": {
@@ -481,7 +481,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            519000
+            300
           ]
         },
         "completionWindow": {
@@ -555,7 +555,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            180
           ]
         },
         "completionWindow": {
@@ -629,10 +629,10 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            130200,
-            259800,
-            389400,
-            519000
+            210,
+            240,
+            270,
+            300
           ]
         },
         "completionWindow": {
@@ -706,7 +706,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            259800
+            240
           ]
         },
         "completionWindow": {
@@ -828,11 +828,11 @@
           },
           "unit": "min",
           "unitsFromZero": [
-            121560,
-            242520,
-            363480,
-            484440,
-            605400
+            180,
+            208,
+            236,
+            264,
+            292
           ]
         },
         "completionWindow": {
@@ -912,11 +912,11 @@
           "dynamic": {},
           "unit": "min",
           "unitsFromZero": [
-            121560,
-            242520,
-            363480,
-            484440,
-            605400
+            180,
+            208,
+            236,
+            264,
+            292
           ]
         },
         "completionWindow": {
@@ -1014,11 +1014,11 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600,
-            130200,
-            259800,
-            389400,
-            519000
+            180,
+            210,
+            240,
+            270,
+            300
           ]
         },
         "completionWindow": {
