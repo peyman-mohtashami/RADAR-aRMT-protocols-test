@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "schemaVersion": "0.0.2",
+  "name": "BEACON Project",
+  "healthIssues": [
+    "eczema"
+  ],
+  "protocols": [
+    {
+      "name": "photo_2.0.0",
+      "label": "Photos",
+      "order": "4",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "beacon_photo",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello,</h1><p>We're asking everyone to take 4 photos of their skin for upload to our secure database.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>We will use the photos to assess how active your eczema is, and to help develop accurate digital skin assessment methods.</p></div></div>"
+      },
+      "endText": {
+        "en": " "
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            600,
+            264120
+          ]
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 120
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin photo form"
+          },
+          "text": {
+            "en": "Please complete your mySkin photo form"
+          },
+          "email": {
+            "enabled": false,
+            "title": {
+              "en": "Please complete your mySkin photo form"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to take 3 photos of their skin for upload to our secure database every 3 months during the study.\nWe will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.\n\nIf you would like to submit photos, please open the mySkin app and start the photos form. This is optional and does not affect your medical care or the rest of your participation in the study.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
