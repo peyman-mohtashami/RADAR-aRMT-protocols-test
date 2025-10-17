@@ -1,0 +1,840 @@
+{
+  "version": "1.1.15",
+  "schemaVersion": "0.0.2",
+  "name": "mySkin Project",
+  "healthIssues": [
+    "psoriasis"
+  ],
+  "protocols": [
+    {
+      "name": "general_psoriasis_bl_2.0.0",
+      "label": "Psoriasis",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "general_psoriasis_bl",
+        "avsc": "questionnaire"
+      },
+      "order": "1",
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing your first of 3 baseline surveys for the PLAN-psoriasis trial.<br><br>Please now return to the home page and complete the second survey entitled 'Treatment experience'.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Psoriasis survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Psoriasis survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Psoriasis survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Psoriasis survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Psoriasis survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Psoriasis survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "general_psoriasis_fu_2.0.0",
+      "label": "Psoriasis",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "general_psoriasis_fu",
+        "avsc": "questionnaire"
+      },
+      "order": "1",
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing your first of 3 follow-up surveys for the PLAN-psoriasis trial.<br><br>Please now return to the home page and complete the second survey entitled 'Treatment experience'.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1980,
+            4860,
+            6300
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Psoriasis survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Psoriasis survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Psoriasis survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Psoriasis survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Psoriasis survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Psoriasis survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "general_psoriasis_fu6_2.0.0",
+      "label": "Psoriasis",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "general_psoriasis_fu",
+        "avsc": "questionnaire"
+      },
+      "order": "1",
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.<br><br>Please collect and send your blood sample before starting this survey.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing your first of 3 follow-up surveys for the PLAN-psoriasis trial.<br><br>Please now return to the home page and complete the second survey entitled 'Treatment experience'.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            3420
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Psoriasis survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Psoriasis survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Psoriasis survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Psoriasis survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Psoriasis survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Psoriasis survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "treatment_experience_bl_2.0.0",
+      "label": "Treatment experience",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "treatment_experience_bl",
+        "avsc": "questionnaire"
+      },
+      "order": "2",
+      "showIntroduction": false,
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing your second of 3 baseline surveys for the PLAN-psoriasis trial.<br><br>Please now return to the home page and complete the third survey entitled 'Healthcare use'.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Treatment experience survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Treatment experience survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Treatment experience survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Treatment experience survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Treatment experience survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Treatment experience survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "treatment_experience_fu3_2.0.0",
+      "label": "Treatment experience",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "treatment_experience_fu3",
+        "avsc": "questionnaire"
+      },
+      "order": "2",
+      "showIntroduction": false,
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing your second of 3 follow-up surveys for the PLAN-psoriasis trial.<br><br>Please now return to the home page and complete the third survey entitled 'Healthcare use'.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1980,
+            4860
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Treatment experience survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Treatment experience survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Treatment experience survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Treatment experience survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Treatment experience survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Treatment experience survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "treatment_experience_fu6_2.0.0",
+      "label": "Treatment experience",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "treatment_experience_fu6",
+        "avsc": "questionnaire"
+      },
+      "order": "2",
+      "showIntroduction": false,
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing your second of 3 baseline surveys for the PLAN-psoriasis trial.<br><br>Please now return to the home page and complete the third survey entitled 'Healthcare use'.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            3420
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Treatment experience survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Treatment experience survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Treatment experience survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Treatment experience survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Treatment experience survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Treatment experience survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "treatment_experience_fu12_2.0.0",
+      "label": "Treatment experience",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "treatment_experience_fu12",
+        "avsc": "questionnaire"
+      },
+      "order": "2",
+      "showIntroduction": false,
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName] for completing your second of 3 follow-up surveys for the PLAN-psoriasis trial.<br><br>Please now return to the home page and complete the third survey entitled 'Healthcare use'.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            6300
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Treatment experience survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Treatment experience survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Treatment experience survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Treatment experience survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Treatment experience survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Treatment experience survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "health_and_care_bl_2.0.0",
+      "label": "Healthcare use",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "health_and_care_bl",
+        "avsc": "questionnaire"
+      },
+      "order": "3",
+      "showIntroduction": false,
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Please return to the home page to complete the 'Photos' form</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Healthcare use survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Healthcare use survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Healthcare use survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Healthcare use survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Healthcare use survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Healthcare use survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "health_and_care_fu_2.0.0",
+      "label": "Healthcare use",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "health_and_care_fu",
+        "avsc": "questionnaire"
+      },
+      "order": "3",
+      "showIntroduction": false,
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p>We’re asking everyone to complete a survey every 3 months during the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your information will help us to understand whether your treatment plan is effective and acceptable.<br><br>Thank you so much for your important contribution.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Please return to the home page to complete the 'Photos' form</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1980,
+            3420,
+            4860,
+            6300
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin Healthcare use survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Healthcare use survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Healthcare use survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin Healthcare use survey"
+          },
+          "text": {
+            "en": "Please complete your mySkin Healthcare use survey"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin Healthcare use survey"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a survey every 3 months during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you haven't already completed it, please open the mySkin app and start the survey.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "sample_blood_instructions_fu6_2.0.0",
+      "label": "How to take a blood sample",
+      "order": "0",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "sample_blood_instructions_fu6",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello [firstName]</h1><p>We're asking everyone to send us a blood sample at 6 months into the PLAN-psoriasis feasibility trial.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>The sample will be used to monitor the concentration of biologic drug in your blood.<br><br>The following steps explain how to take a blood sample at home.<br><br>Please collect and post the sample on a Monday, Tuesday or Wednesday.<br><br>Taking a blood sample is optional and does not affect your medical care or the rest of your participation in the study. Please read the step-by-step guide, and let us know on the final page if you take a sample.<br><br>Thank you so much for your valuable contribution and please get in touch if you have questions.</p></div></div>"
+      },
+      "endText": {
+        "en": "<p>Thank you [firstName]<br><br>Please now return to the home page and complete the survey entitled 'Psoriasis'.</p>"
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            3420
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 2,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin blood sample"
+          },
+          "text": {
+            "en": "Please send us your blood sample"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please send us your blood sample"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to send us a blood sample at 6 months into the study. This will be used to monitor the concentration of biologic drug in your blood.\nPlease open the mySkin app and follow the step-by-step guide to taking your blood sample at home.\n\nTaking a blood sample is optional and does not affect your medical care or the rest of your participation in the study. Please read the step-by-step guide in the mySkin app, and let us know on the final page if you take a sample.\n\nThank you so much for your valuable contribution and please get in touch if you have questions.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin blood sample"
+          },
+          "text": {
+            "en": "Please send us your blood sample"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please send us your blood sample"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to send us a blood sample at 6 months into the study. This will be used to monitor the concentration of biologic drug in your blood.\nPlease open the mySkin app and follow the step-by-step guide to taking your blood sample at home.\n\nTaking a blood sample is optional and does not affect your medical care or the rest of your participation in the study. Please read the step-by-step guide in the mySkin app, and let us know on the final page if you take a sample.\n\nThank you so much for your valuable contribution and please get in touch if you have questions.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "photo_2.0.0",
+      "label": "Photos",
+      "order": "4",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "photo_bl_fu",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello [firstName]</h1><p>We're asking everyone to take 3 photos of their skin for upload to our secure database.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>We will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.</p></div></div>"
+      },
+      "endText": {
+        "en": " "
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540,
+            1980,
+            3420,
+            4860,
+            6300
+          ]
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 23
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin photo form"
+          },
+          "text": {
+            "en": "Please complete your mySkin photo form"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your mySkin photo form"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to take 3 photos of their skin for upload to our secure database every 3 months during the study.\nWe will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.\n\nIf you would like to submit photos, please open the mySkin app and start the photos form. This is optional and does not affect your medical care or the rest of your participation in the study.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "sample_blood_instructions_2.0.0",
+      "label": "How to take a blood sample",
+      "type": "on_demand",
+      "condition": {
+        "criteria": "hidden"
+      },
+      "order": "1",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "sample_blood_instructions",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello [firstName]</h1><p>The following steps explain how to take a blood sample at home.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Please collect and post the blood sample on a Monday, Tuesday or Wednesday.<br><br>Get in touch with the study team if you have questions.</p></div></div>"
+      },
+      "endText": {
+        "en": " "
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    }
+  ]
+}
