@@ -835,6 +835,298 @@
       },
       "estimatedCompletionTime": 10,
       "protocol": {}
+    },
+    {
+      "name": "injection_arm_1_2.0.0",
+      "label": "Log my biologic injection",
+      "type": "on_demand",
+      "condition": {
+        "criteria": "group",
+        "value": "ARM1"
+      },
+      "next": "photo_ondemand_2.0.0",
+      "order": "2",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "injection_arm_1",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello [firstName]</h1><p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic 'as needed' (at the first sign of recurrence of your psoriasis).</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Every time you decide to take your biologic injection (risankizumab / Skyrizi) during the study, record this in the injection log.<br><br>The interval between each injection must be 12 weeks or longer.</p></div></div>"
+      },
+      "endText": {
+        "en": "We're asking everyone to take 3 photos of their skin for upload to our secure database.<br><br>We will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.<br><br>Would you like to submit photos? This is optional and does not affect your medical care or the rest of your participation in the study."
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {
+        "condition": {
+          "criteria": "after",
+          "unit": "week",
+          "value": "12",
+          "reference": {
+            "questionnaireName": "injection_arm_1_2.0.0",
+            "question": "t1_injdte_calc"
+          }
+        }
+      }
+    },
+    {
+      "name": "injection_arm_2_2.0.0",
+      "label": "Log my biologic injection",
+      "condition": {
+        "criteria": "group",
+        "value": "ARM2"
+      },
+      "showIntroduction": "always",
+      "order": "2",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "injection_arm_2",
+        "avsc": "questionnaire"
+      },
+      "next": "photo_ondemand_2.0.0",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p class='text-black'>Hello [firstName]</p><p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic at a personalised frequency based on the concentration of drug in your blood. This is called therapeutic drug monitoring guided treatment.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Every time you take your biologic injection during the study, please record this in the injection log.</p></div></div>"
+      },
+      "endText": {
+        "en": "We're asking everyone to take 3 photos of their skin for upload to our secure database.<br><br>We will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.<br><br>Would you like to submit photos? This is optional and does not affect your medical care or the rest of your participation in the study."
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "baseTimestamp": "lastInjectionDate",
+        "repeatQuestionnaire": {
+          "dynamic": {
+            "unit": "min",
+            "unitsFromZero": "arm2RepeatQuestionnaire"
+          },
+          "unit": "min",
+          "unitsFromZero": [
+            121560,
+            242520,
+            363480,
+            484440,
+            605400
+          ]
+        },
+        "completionWindow": {
+          "unit": "year",
+          "amount": 1
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 5,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin biologic injection log"
+          },
+          "text": {
+            "en": "Please complete your biologic injection log"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your biologic injection log"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a biologic injection log when they take their biologic injection during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you have taken your biologic injection, please open the mySkin app and start the log.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin biologic injection log"
+          },
+          "text": {
+            "en": "Please complete your biologic injection log"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your biologic injection log"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a biologic injection log when they take their biologic injection during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you have taken your biologic injection, please open the mySkin app and start the log.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "injection_arm_3_2.0.0",
+      "label": "Log my biologic injection",
+      "condition": {
+        "criteria": "group",
+        "value": "ARM3"
+      },
+      "next": "photo_ondemand_2.0.0",
+      "showIntroduction": "always",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "injection_arm_3",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p class='text-black'>Hello [firstName]</p><p>In the PLAN-psoriasis feasibility trial, you have been selected to take your biologic according to standard care.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Every time you take your biologic injection during the study, please record this in the injection log.</p></div></div>"
+      },
+      "endText": {
+        "en": "We're asking everyone to take 3 photos of their skin for upload to our secure database.<br><br>We will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.<br><br>Would you like to submit photos? This is optional and does not affect your medical care or the rest of your participation in the study."
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "baseTimestamp": "lastInjectionDate",
+        "repeatQuestionnaire": {
+          "dynamic": {},
+          "unit": "min",
+          "unitsFromZero": [
+            121560,
+            242520,
+            363480,
+            484440,
+            605400
+          ]
+        },
+        "completionWindow": {
+          "unit": "year",
+          "amount": 1
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 5,
+          "repeat": 2,
+          "title": {
+            "en": "mySkin biologic injection log"
+          },
+          "text": {
+            "en": "Please complete your biologic injection log"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your biologic injection log"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a biologic injection log when they take their biologic injection during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you have taken your biologic injection, please open the mySkin app and start the log.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "mySkin biologic injection log"
+          },
+          "text": {
+            "en": "Please complete your biologic injection log"
+          },
+          "email": {
+            "enabled": true,
+            "title": {
+              "en": "Please complete your biologic injection log"
+            },
+            "body": {
+              "en": "Hello [firstName],\n\nThank you for your ongoing participation in the PLAN-psoriasis feasibility trial.\nWe're asking everyone to complete a biologic injection log when they take their biologic injection during the study.\nYour information is vital for us to understand whether your treatment plan is effective and acceptable.\n\nIf you have taken your biologic injection, please open the mySkin app and start the log.\n\nThank you so much for your valuable contribution.\n\nThe PLAN-psoriasis team\nEmail: PLAN@kcl.ac.uk"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "pifu_2.0.0",
+      "label": "Request ad hoc clinic visit",
+      "type": "on_demand",
+      "next": "photo_ondemand_2.0.0",
+      "order": "1",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "pifu",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><p class='text-black'>Hello [firstName]</p><p>We're asking everyone who requests an ad hoc clinic visit to complete the following survey.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Your doctor will then complete a full assessment at your clinic visit and discuss with you whether any changes to your treatment plan are advised.<br><br>We look forward to seeing you in clinic. <br><br>Thank you for your important contribution to psoriasis research.</p></div></div>"
+      },
+      "endText": {
+        "en": "We're asking everyone to take 3 photos of their skin for upload to our secure database.<br><br>We will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.<br><br>Would you like to submit photos? This is optional and does not affect your medical care or the rest of your participation in the study."
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    },
+    {
+      "name": "photo_ondemand_2.0.0",
+      "label": "Photos",
+      "type": "on_demand",
+      "condition": {
+        "criteria": "after",
+        "value": [
+          "pifu_2.0.0",
+          "injection_arm_1_2.0.0",
+          "injection_arm_2_2.0.0",
+          "injection_arm_3_2.0.0"
+        ]
+      },
+      "order": "1",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "photo",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": false,
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello [firstName]</h1><p>We're asking everyone to take 3 photos of their skin for upload to our secure database.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>We will use the photos to assess how active your psoriasis is, and to help develop accurate digital skin assessment methods.<br><br>Would you like to submit photos? This is optional and does not affect your medical care or the rest of your participation in the study.</p></div></div>"
+      },
+      "endText": {
+        "en": " "
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
+    },
+    {
+      "name": "sample_blood_instructions_2.0.0",
+      "label": "How to take a blood sample",
+      "type": "on_demand",
+      "condition": {
+        "criteria": "hidden"
+      },
+      "order": "1",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "sample_blood_instructions",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": "always",
+      "startText": {
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#3F8978] text-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello [firstName]</h1><p>The following steps explain how to take a blood sample at home.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>Please collect and post the blood sample on a Monday, Tuesday or Wednesday.<br><br>Get in touch with the study team if you have questions.</p></div></div>"
+      },
+      "endText": {
+        "en": " "
+      },
+      "warn": {
+        "en": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {}
     }
   ]
 }
