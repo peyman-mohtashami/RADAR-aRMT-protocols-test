@@ -17,7 +17,7 @@
       },
       "showIntroduction": "always",
       "startText": {
-        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello,</h1><p>We're asking everyone to take 4 photos of their skin for upload to our secure database.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>We will use the photos to assess how active your eczema is, and to help develop accurate digital skin assessment methods.</p></div></div>"
+        "en": "<div class='mx-1 relative pt-12 pb-24 px-12 rounded-b-full bg-[#e0e1ce] z-10 min-h-[calc(40vh-14px)] flex items-center justify-center'><div><h1 class='text-black'>Hello,</h1><p>We're asking everyone to answer questions and take 4 photos of their skin for upload to our secure database.</p></div></div><div class='mx-1 pb-12 px-12 pt-24 bg-[#3F8978] text-[#e0e1ce] rounded-t-full relative -z-10 -mt-20 min-h-[calc(60vh-14px)] flex items-center justify-center'><div><p>We will use the information to assess how active your eczema is, and to help develop accurate digital skin assessment methods.</p></div></div>"
       },
       "endText": {
         "en": " "
